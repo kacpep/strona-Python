@@ -1,0 +1,112 @@
+@media (min-width: 320px){
+    body{
+        font-size: 80%;
+    }
+    h1{
+        font-size: 30px;
+    }
+    h1>img{
+        width: 80px;
+    }
+    .hamburger{
+        visibility: visible;
+        display: block;
+    }
+    .linkNav{
+        display:none;
+    }
+    .contener{
+        width: 100%;
+    }
+}
+@media(min-width: 581px){
+    body{
+        font-size: 90%;
+    }
+    h1{
+        font-size: 30px;
+    }
+    h1>img{
+        width: 90px;
+    }
+    nav{
+        font-size: 140%;
+    }
+    .hamburger{
+        visibility: visible;
+        display: block;
+    }
+    .linkNav{
+        display:none;
+    }
+
+}
+@media(min-width: 781px){
+    body{
+        font-size: 100%;
+    }
+    h1{
+        font-size: 30px;
+    }
+    h1>img{
+        width: 100px;
+    }
+    nav{
+        font-size: 140%;
+    }
+    .hamburger{
+        visibility: hidden;
+        display: none;
+    }
+    .linkNav{
+        display: inline-block;
+    }
+    .topnav{
+        display: none;
+    }
+
+}
+@media(min-width: 1024px){
+
+    body{
+        font-size: 100%;
+    }
+    h1{
+        font-size: 40px;
+    }
+    .contener{
+        width: 960px;
+    }
+    .hamburger{
+        visibility: hidden;
+        display: none;
+    }
+    .topnav{
+        display: none;
+    }
+}
+@media(min-width: 1200px){
+
+    body{
+        font-size: 100%;
+    }
+    h1{
+        font-size: 40px;
+    }
+    .contener{
+        width: 1170px;
+    }
+}
+    
+@media(min-width: 1600px){
+
+    body{
+        font-size: 100%;
+    }
+    h1{
+        font-size: 40px;
+    }
+    .contener{
+        width: 1570px;
+    }
+}
