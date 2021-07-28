@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nie bój się Pythona!</title>
+    <link href="https://fonts.googleapis.com/css2?family=Alata&family=Open+Sans&family=Oswald&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaMin-width.css">
+    <link href="hamburger.css" rel="stylesheet">
+    <link rel="shortcut icon" href="img/icon_upper.ico" type="image/x-icon" />
+    
+</head>
+<body id="body">
+
+  <header>
+    <h1>Nie bój się Pythona! <img src="img/logo.png" alt="Nie załadowano obrazka. :-("></h1>
+    <nav>
+            
+        <p class="linkNav"><a href="Cwiczenia.html">&#8629;</span> Powrót</a></p>
+
+            <div class="topnav">
+                <button onclick="menu()" class="hamburger hamburger--slider icon" type="button">
+                    <span class="hamburger-box">
+                      <span class="hamburger-inner"></span>
+                    </span>
+                  </button>
+              <div id="myLinks">
+                <a href="Cwiczenia.html"><span class="return">&#8629;</span> Powrót</a>
+              </div>
+            </div>
+          
+    
+    </nav>
+    </header>
+    <section id="totalne_podstawy">
+      <h2>Witaj w ostatnim kursie na tej stronie. Tu nauczysz się początków tkinter'a.
+        <br>
+        <span>Zaczynajmy!</span> 
+      </h2>
+
+    </section>
+    <section class="ad">
+      Reklama 
+    </section>
+    <section id="c_1" class="border_top">
+      <img class="border_img" src="img/import_time.png" alt="Brak Obrazka Przepraszamy za błędy">
+      <div class="text_right">
+        <h2>Importowanie biblioteki.</h2>
+          <p>
+            Aby zaimportować bibliotekę potrzebujesz na początku programu dodać <span class="color_green_none">import nazwa_biblioteki</span> w tym przypadku importujemy bibliotekę o nazwie <span class="color_green">time.</span>
+            <span class="arrow_down">&#9735;</span> 
+          </p>
+      </div>
+    </section>
+    <section id="c_2" class="border_top">
+        <img class="border_img" src="img/time_przykład.png" alt="Brak Obrazka Przepraszamy za błędy">
+        <div class="text_left">
+          <h2>Co nam daje importowanie biblioteki.</h2>
+            <p>
+              Importowanie biblioteki powiększa nasze możliwości. A z modułem time można zrobić np. to:
+              Program prosi nas o podanie za ile ma powiedzieć cześć. Używamy w tym przypadku modułu <span class="color_green_none">time.sleep()</span> W nawiasach podajemy czas w sekundach.
+              <span class="arrow_down">&#9735;</span>
+            </p>
+        </div>
+    </section>
+    <section class="ad">
+      Reklama 
+    </section>
+    <section id="c_3" class="border_top">
+      <img class="border_img" src="img/time_przykład_2.png" alt="Brak Obrazka Przepraszamy za błędy">
+      <div class="text_right">
+        <h2>Liczenie.</h2>
+          <p>
+            Ten program drukuje nam co 1 sekundę cyfrę. Podajemy czas i liczy nam od 1 do podanego czasu. <span class="color_green_none">Dlaczego dodajemy do x+1?</span> Po to, żeby program nam liczył od 1 a nie od zera.
+            <span class="arrow_down">&#9735;</span>
+          </p>
+      </div>
+    </section>
+    <section id="c_4" class="border_top">
+      <img class="border_img" src="img/tkinter-1.png" alt="Brak Obrazka Przepraszamy za błędy">
+      <div class="text_right">
+        <h2>Importowanie biblioteki Tkinter</h2>
+          <p>
+            Tkinter jest do tworzenia aplikacji okienkowych dzięki tkinterowi można zrobić kalkulator. Obok przypisujemy do root okno tkintera, aby się łatwiej odwoływać. Ustawiamy tytuł i wielkość okna. I odpalamy okno w nieskończoność ostatnim polecenim.
+          </p>
+      </div>
+    </section>
+    <section id="c_5" class="border_top">
+      <img class="border_img" src="img/tkinter-2.png" alt="Brak Obrazka Przepraszamy za błędy">
+      <div class="text_right">
+        <h2>Dodanie tekstu do okna.</h2>
+          <p>
+              Po utworzeniu okna można dodać np. dowolny tekst, przycisk, obraz lub pole tekstowe. Przykładowo dodajemy tekst.
+          </p>
+      </div>
+    </section>
+    <section id="c_5_1" >
+      <img class="border_img " src="img/tkinter-2-2.png" alt="Brak Obrazka Przepraszamy za błędy">
+      <div class="text_left">
+          <p>
+               Tak wygląda okno z tekstem.
+          </p>
+      </div>
+    </section>
+    <section class="ad">
+      Reklama 
+    </section>
+    <section id="c_6" class="border_top">
+      <img class="border_img" src="img/tkinter-3.png" alt="Brak Obrazka Przepraszamy za błędy">
+      <div class="text_right">
+        <h2>Przycisk.</h2>
+          <p>
+            To jest program który po kliknięcu przycisku wydrukuje nam <span class="color_green">Cześć.</span> Tworzy okno potem przycisk o danych wymiarach i funkcję którą ma wywołać podczas kliknięcia. W tym przpadku jest to write. Wcześniej stworzyliśmy miejsce na tekst na początku jest pusty ale w funkcji go uzupełniamy.
+           </p>
+      </div>
+    </section>
+    <section id="c_6_1">
+      <p>
+        Rezultat ->
+      </p>
+      <img class="border_img" src="img/tkinter-3-2.png" alt="Brak Obrazka Przepraszamy za błędy">
+    </section>
+    <section id="c_7" class="border_top">
+      <div class="text_right">
+        <h2>Zadanie.</h2>
+          <p>
+            Stwórz program, który za każdym kliknięciem w przycisk doda do zmiennej dwa i wydrukuje ją w oknie tkintera.
+          </p>
+      </div>
+    </section>
+    
+
+
+        
+    <a id="up" href="#body">&#x22C0;</a>
+
+    <footer>
+      <p>Kacper Ostrowski : Wszelkie prawa zastrzeżone &copy; 2021r.</p>
+    </footer>
+    
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="scrolling.js"></script>
+</body>
+</html>
