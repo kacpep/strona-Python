@@ -1,1 +1,1 @@
-# strona-Python LINK:  https://.github.io/strona-Python/
+# strona-Python LINK:  [kacpep/pythonm](https://kacpep.github.io/strona-Python/)
