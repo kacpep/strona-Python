@@ -1,1 +1,1 @@
-# strona-Python LINK:  https://ostrowskiprograming.github.io/strona-Python/
+# strona-Python LINK:  https://.github.io/strona-Python/
